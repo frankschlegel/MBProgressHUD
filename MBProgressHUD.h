@@ -220,6 +220,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, nullable) UIColor *contentColor UI_APPEARANCE_SELECTOR;
 
 /**
+ * A color of the bezel view.
+ */
+@property (strong, nonatomic, nullable) UIColor *bezelColor UI_APPEARANCE_SELECTOR;
+
+/**
  * The animation type that should be used when the HUD is shown and hidden.
  */
 @property (assign, nonatomic) MBProgressHUDAnimation animationType UI_APPEARANCE_SELECTOR;

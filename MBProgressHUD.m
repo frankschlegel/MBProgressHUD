@@ -726,6 +726,17 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     }
 }
 
+- (UIColor *)bezelColor
+{
+    return self.bezelView.color;
+}
+
+- (void)setBezelColor:(UIColor *)bezelColor
+{
+    MBMainThreadAssert();
+    self.bezelView.color = bezelColor;
+}
+
 - (void)setDefaultMotionEffectsEnabled:(BOOL)defaultMotionEffectsEnabled {
     if (defaultMotionEffectsEnabled != _defaultMotionEffectsEnabled) {
         _defaultMotionEffectsEnabled = defaultMotionEffectsEnabled;
