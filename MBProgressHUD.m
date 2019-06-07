@@ -80,7 +80,6 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     _mode = MBProgressHUDModeIndeterminate;
     _margin = 20.0f;
     _padding = 4.0f;
-    _opacity = 1.f;
     _defaultMotionEffectsEnabled = YES;
     _contentColor = [UIColor colorWithWhite:0.f alpha:0.7f];
 
